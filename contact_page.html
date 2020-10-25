@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <p><a href="index.html">Späť</a></p>
+    <h2>Contact</h2>
+    <hr>
+
+    <form action="mailto:pet.hornak@gmail.com" method="post" enctype="text/plain">
+        <!-- ked dam for do labelu a spojim to s id inputu, tak kliknutim na label
+             ma rovno prepne do inputu-->
+        <label for="id_yourName">Your name:</label>
+        <input type="text" name="yourName" id="id_yourName">
+        <br>
+        <label for="id_yourEmail">Your email:</label>
+        <input type="email" name="yourEmail" id="id_yourEmail">
+        <br><br>
+        <label for="">Your message:</label>
+        <br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Poslat">
+    </form>
+
+</body>
+</html>
